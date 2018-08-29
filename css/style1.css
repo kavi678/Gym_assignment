@@ -1,0 +1,22 @@
+.body1 {
+  width:100%;
+  padding: 10% 0;
+  margin: auto;
+  text-align: center;
+}
+
+.body1_h1 {
+  text-align: center;
+}
+
+.add,.show,.delete,.ex{
+  display: inline-block;
+  margin-top: 10px;
+  width: 85%;
+  padding: 10% 1%;
+  border: black 5px;
+  background-color:red;
+}
+.body1a1,.body1a2,.body1a3,.body1a4{
+  color:white;
+}
