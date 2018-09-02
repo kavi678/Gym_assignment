@@ -1,3 +1,8 @@
+html {
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+
 .body1 {
   width:100%;
   padding: 10% 0;
@@ -7,16 +12,27 @@
 
 .body1_h1 {
   text-align: center;
+  color: white;
+}
+.home a {
+  text-decoration: none;
 }
 
-.add,.show,.delete,.ex{
+
+.add,.show,.health,.ex, .day1, .day2, .day3, .day4{
   display: inline-block;
+  border-radius: 10px;
   margin-top: 10px;
   width: 85%;
   padding: 10% 1%;
   border: black 5px;
-  background-color:red;
+  background-image: url("main.jpg");
+  background-size: cover;
 }
 .body1a1,.body1a2,.body1a3,.body1a4{
-  color:white;
+  color:black;
+}
+.home {
+  position: relative;
+
 }

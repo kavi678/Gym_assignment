@@ -1,0 +1,46 @@
+html {
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+
+.home a {
+  text-decoration: none;
+}
+.home {
+  position: relative;
+
+
+}
+.body1 {
+  width:100%;
+  padding: 10% 0;
+  margin: auto;
+  text-align: center;
+}
+.body1_h1 {
+  text-align: center;
+  color: white;
+}
+
+.out2 td, .out2 th {
+    border: 1px solid #ddd;
+    padding: 15px 8px;
+
+}
+.out2 td {
+  background-color: #f2f2f2;
+}
+
+
+
+.out2 tr:{background-color: #f2f2f2;}
+
+.out2 tr:hover {background-color: #f2f2f2;}
+
+.out2 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #333;
+    color: white;
+}
