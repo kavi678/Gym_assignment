@@ -3,13 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/style1.css">
+  <link rel="stylesheet" href="../css/styleh.css">
   <title>Health Chart</title>
 </head>
-<body class="body1">
-  <h1 class="body1_h1">Loading....</h1>
+<body class="body1" onload="init()">
+  <h1 class="body1_h1">Heart Rate</h1>
   <a href="../index.html" class="home" ><button><img src="../images/hbutton.jpg" alt="hbutton"></button></a>
+  <br><br>
+  <div class="mainData">
+  <div class="inputForm">
+
+    <div class="inputRow">
+      <label for="valueInput" class="vv">BPM</label>
+      <input type="number" name="value" id="valueInput" />
+    </div>
+    <br>
+    <button id="saveBtn" onclick="h2()">Add</button>
+
+
+  </div>
+  </div>
+  <br>
+
+    <table id="outputTable" class="outputt">
+        <thead>
+            <tr>
+                <th>BPM</th>
+                <th>Time</th>
+                <th></th>
+
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <br><br><br>
+  <a href="health.html" class="clear"><button onclick="delh();">Clear Readings</button></a>
+
+
 
 </body>
-
+<script  src="../java/javah.js"></script>
 </html>
