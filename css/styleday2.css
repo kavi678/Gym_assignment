@@ -24,7 +24,7 @@ html {
 .out2 {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 90%;
+    width: 80%;
 }
 .out2 td, .out2 th {
     border: 1px solid #ddd;
