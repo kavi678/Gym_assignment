@@ -1,0 +1,22 @@
+html {
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+.body1 {
+  width:100%;
+  padding: 10% 0;
+  margin: auto;
+  text-align: center;
+
+}
+.body1_h1 {
+  text-align: center;
+  color: white;
+}
+.home a {
+  text-decoration: none;
+}
+.home {
+  position: relative;
+
+}

@@ -19,7 +19,7 @@ html {
 }
 
 
-.add,.show,.health,.ex, .day1, .day2, .day3, .day4{
+.add,.show,.health,.ex, .day1, .day2, .day3, .day4, .chest1{
   display: inline-block;
   border-radius: 10px;
   margin-top: 10px;
