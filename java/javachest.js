@@ -30,3 +30,35 @@ function mychest4() {
         x.style.display = "none";
     }
 }
+function myback1() {
+    var x = document.getElementById("back1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function myback2() {
+    var x = document.getElementById("back2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function myback3() {
+    var x = document.getElementById("back3");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function myback4() {
+    var x = document.getElementById("back4");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
