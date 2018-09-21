@@ -6,6 +6,7 @@ function mychest1() {
         x.style.display = "none";
     }
 }
+// fuction works as a toggle when the given id element will be pressed it will show its content if the content is hidden and will hide the content if it is visible.
 function mychest2() {
     var x = document.getElementById("chest2");
     if (x.style.display === "none") {

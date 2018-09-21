@@ -1,5 +1,5 @@
 var Day1Array = [];
-
+// following init fuction will always run when the windw is open. it will take all the items from the local storage and give value to post on a page
 function init() {
     if (localStorage.Add1) {
         Day1Array = JSON.parse(localStorage.Add1);
@@ -11,7 +11,7 @@ function init() {
         }
     }
 }
-
+// add function will take the item from the text input and stores that values in a specific key named as Day1Array.
 
 function add1() {
     var ex1 = document.getElementById("excersise1").value;
@@ -26,7 +26,7 @@ function add1() {
     prepareTableCell(ex1, mu1, s1, r1, w1);
 
 }
-
+// following function will make a table and show all the value from the local storage in the rows.
 function prepareTableCell(ex1, mu1, s1, r1, w1) {
     var table = document.getElementById("output1");
     var De1 = document.createElement('button');
@@ -47,6 +47,7 @@ function prepareTableCell(ex1, mu1, s1, r1, w1) {
     d1Cell.appendChild(De1);
 
 }
+// dell function will delete that key from the local storage. Day1Array will be removes from it. when you add again any item it will create a new Day1Array list.
 function del1() {
 
     localStorage.removeItem("Add1");
