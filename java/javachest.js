@@ -62,3 +62,35 @@ function myback4() {
         x.style.display = "none";
     }
 }
+function myarms1() {
+    var x = document.getElementById("arms1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function myarms2() {
+    var x = document.getElementById("arms2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function myarms3() {
+    var x = document.getElementById("arms3");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function myarms4() {
+    var x = document.getElementById("arms4");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
