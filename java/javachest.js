@@ -94,3 +94,43 @@ function myarms4() {
         x.style.display = "none";
     }
 }
+function mylower5() {
+    var x = document.getElementById("lower5");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function mylower1() {
+    var x = document.getElementById("lower1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function mylower2() {
+    var x = document.getElementById("lower2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function mylower3() {
+    var x = document.getElementById("lower3");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function mylower4() {
+    var x = document.getElementById("lower4");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
