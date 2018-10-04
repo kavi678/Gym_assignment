@@ -1,0 +1,112 @@
+.main-container{
+	margin:auto;
+	text-align: center;
+}
+.range-container {
+	width: 95%;
+	font-size: 25px;
+	padding: 2%;
+}
+.row-container {
+	width: 94%;
+}
+.div11, .div1, .div4, .div7 {
+	float:left;
+	width:25%;
+}
+.reps, .workout, .sets, .rest {
+	width: 100%;
+    height: 10px;
+
+
+}
+
+.div12, .div2, .div5, .div8{
+	margin-left:30%;
+	width: 66%;
+}
+.div13, .div3, .div6, .div9{
+	margin-left:90%;
+	width:2%;
+}
+.start{
+	margin:auto;
+	width: 30%;
+	padding: 5%;
+	background-color: #37CCCE;
+    color: black;
+    border: 2px solid dark blue;
+	border-radius: 12px;
+	color: White;
+	font-size: 25px;
+
+}
+
+.timer {
+	width: 60%;
+	padding: 5% 0;
+	font-size: 30px;
+	background-color: #CE3742;
+	margin: auto;
+	text-align: center;
+	color:white;
+	border-radius: 12px;
+
+}
+
+.divider1 {
+   padding: 1%;
+   width:60%;
+   background-color:black;
+   color:white;
+	text-align: center;
+	font-size: 25px;
+	margin: auto;
+	border-radius: 12px;
+}
+.setdone {
+    width: 50%;
+	height:7%;
+    background: black;
+    float: left;
+}
+.setdone1 {
+	margin-left: 55%;
+    width: 45%;
+	height: 7%;
+	padding: 0;
+    background: white;
+	color:black;
+}
+.setdone p{
+	margin: auto;
+}
+.divider2 {
+   padding: 1%;
+   width:60%;
+   background-color:black;
+   color:white;
+	text-align: center;
+	font-size: 25px;
+	margin: auto;
+	border-radius: 12px;
+
+}
+.setneed {
+    width: 50%;
+	height:7%;
+    background: black;
+    float: left;
+}
+.setneed p{
+	margin: auto;
+}
+.setneed1 {
+	margin-left: 55%;
+    width: 45%;
+	height: 7%;
+	padding: 0;
+    background: white;
+	color:black;
+
+}
