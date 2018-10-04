@@ -13,6 +13,7 @@
 .div11, .div1, .div4, .div7 {
 	float:left;
 	width:25%;
+  color: white;
 }
 .reps, .workout, .sets, .rest {
 	width: 100%;
@@ -28,6 +29,7 @@
 .div13, .div3, .div6, .div9{
 	margin-left:90%;
 	width:2%;
+  color:white;
 }
 .start{
 	margin:auto;
