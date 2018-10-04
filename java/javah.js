@@ -47,3 +47,11 @@ function delh() {
     localStorage.removeItem("health");
 
 }
+function mybpm() {
+    var x = document.getElementById("bpm111");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}

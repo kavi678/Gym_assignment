@@ -72,3 +72,23 @@ html {
     background-color: #333;
     color: white;
 }
+.bpm1{
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 85%;
+  padding: 10% 1%;
+  border: black 5px;
+  background-image: url("main.jpg");
+  background-size: cover;
+}
+.bpm11 {
+  width: 100%;
+  margin: auto;
+  display: none;
+  padding: 5%;
+  background-image: url("back.jpg");
+  background-size: cover;
+  border-radius: 10px;
+
+}
