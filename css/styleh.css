@@ -82,13 +82,58 @@ html {
   background-image: url("main.jpg");
   background-size: cover;
 }
-.bpm11 {
+.bpm11, .womanhide, .manhide, .mhide{
   width: 100%;
   margin: auto;
   display: none;
   padding: 5%;
-  background-image: url("back.jpg");
+  background-image: url("ex2wall.jpg");
   background-size: cover;
   border-radius: 10px;
 
+}
+
+.csscal input[type=number]{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+.csscal label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+.csscal input[type=submit] {
+    background-color: #37CCCE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+.csscal input[type=reset]{
+    background-color: #CE3742;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+.csscal input[type=result]{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.csscal h2{
+  color:white;
 }
