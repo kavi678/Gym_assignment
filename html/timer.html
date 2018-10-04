@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/style1.css">
+  <link rel="stylesheet" href="../css/styletimer.css">
+
+  <title>Timer</title>
+</head>
+<body class="body1">
+  <h1 class="body1_h1">Gym Timer</h1>
+  <a href="../index.html" class="home" ><button><img src="../images/hbutton.jpg" alt="hbutton"></button></a>
+  <div class='main-container'>
+
+  <div class='range-container'>
+    <div class='row-container'>
+      <div class="div11"><span class='text reps'>Reps:</span> </div>
+      <div class="div12"><input class='reps' type="range"> </div>
+      <div class="div13"><span class='value reps'></span></div>
+    </div> <br>
+    <div class='row-container'>
+      <div class="div1"><span class='text workout'>Workout:</span> </div>
+      <div class="div2"><input class='workout' type="range"> </div>
+      <div class="div3"><span class='value workout'></span></div>
+    </div>  <br>
+    <div class='row-container'>
+      <div class="div4"><span class='text rest'>Rest:</span> </div>
+      <div class="div5"><input class='rest' type="range"> </div>
+      <div class="div6"><span class='value rest'></span></div>
+    </div><br>
+    <div class='row-container'>
+      <div class="div7"><span class='text sets'>Sets:</span> </div>
+      <div class="div8"><input class='sets' type="range"> </div>
+      <div class="div9"><span class='value sets'></span></div>
+    </div><br>
+  </div>
+
+  <div class='buttons-container'>
+
+    <div class='center-container'>
+	<button class="start">Start</button><br><br>
+     <div class='timer'></div><br>
+	 <div class="divider1">
+     <div class="setdone"><p>Sets done:</p></div>
+	 <div class='setdone1'></div></div><br>
+	 <div class="divider2">
+	 <div class="setneed"><p>Total Sets:</p> </div>
+	 <div class="setneed1"></div></div>
+    </div>
+
+  </div>
+
+</div>
+</body>
+<script  src="../java/javatimer.js"></script>
+</html>
