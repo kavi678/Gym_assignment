@@ -67,27 +67,26 @@
 	border-radius: 12px;
 }
 .setdone {
-    width: 50%;
+  width: 50%;
 	height:7%;
-    background: black;
-    float: left;
+  background: black;
+  float: left;
 }
 .setdone1 {
-	margin-left: 55%;
-    width: 45%;
+	margin-left: 50%;
+  width: 45%;
 	height: 7%;
-	padding: 0;
-    background: white;
+	background: white;
 	color:black;
 }
 .setdone p{
 	margin: auto;
 }
 .divider2 {
-   padding: 1%;
-   width:60%;
-   background-color:black;
-   color:white;
+  padding: 1%;
+  width:60%;
+  background-color:black;
+  color:white;
 	text-align: center;
 	font-size: 25px;
 	margin: auto;
@@ -95,20 +94,19 @@
 
 }
 .setneed {
-    width: 50%;
+  width: 50%;
 	height:7%;
-    background: black;
-    float: left;
+  background: black;
+  float: left;
 }
 .setneed p{
 	margin: auto;
 }
 .setneed1 {
-	margin-left: 55%;
-    width: 45%;
+	margin-left: 50%;
+  width: 45%;
 	height: 7%;
-	padding: 0;
-    background: white;
+  background: white;
 	color:black;
 
 }
