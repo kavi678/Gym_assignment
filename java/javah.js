@@ -79,6 +79,7 @@ function mycal() {
         x.style.display = "none";
     }
 }
+//claculatemanBMR function will calculate the BMR with some mathematics techniques
 (function () {
 	function calculatemanBMR(manWeight, manHeight, manAge) {
 		manWeight = parseFloat(manWeight);
@@ -98,7 +99,7 @@ function mycal() {
 
 
 
-
+//claculatewomanBMR function will calculate the BMR with some mathematics techniques
 (function () {
 	function calculatewomanBMR(womanWeight, womanHeight, womanAge) {
 		womanWeight = parseFloat(womanWeight);
