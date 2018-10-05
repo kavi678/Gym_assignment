@@ -1,3 +1,5 @@
+
+// below is all the query selectors that are called from the html and stored in variable
 var repsInput = document.querySelector('input.reps'),
     workoutInput = document.querySelector('input.workout'),
     restInput = document.querySelector('input.rest'),
@@ -21,7 +23,7 @@ var interval;
 initValues();
 
 initEvents();
-
+// initvalues function is for range sliders
 function initValues() {
   isRunning = false;
 
@@ -50,7 +52,7 @@ function initValues() {
   setneed1Area.innerHTML = "0";
 }
 
-
+// initevents put the values of range on the side of the slider
 function initEvents() {
   repsInput.oninput = function() {
     repsSpan.innerHTML = repsInput.value;
@@ -67,7 +69,7 @@ function initEvents() {
   setsInput.oninput = function() {
     setsSpan.innerHTML = setsInput.value;
   };
-
+// this will check if the timer is running or not according to which it will take action
   startArea.onclick = function() {
     if(!isRunning) {
       isRunning = true;
@@ -80,7 +82,7 @@ function initEvents() {
   };
 }
 
-
+// this will takes all the values and add up into the function to run the timer
 function runTabata(workout, rest, sets) {
   var arrPeriods = [],
       index = 0
@@ -94,7 +96,7 @@ function runTabata(workout, rest, sets) {
   runTimer(arrPeriods, index);
 }
 
-
+// this will run the timer by converting the values in to time type
 function runTimer(arrPeriods, index) {
   var timeNow, timeFuture, timeDifference;
 
@@ -105,7 +107,7 @@ function runTimer(arrPeriods, index) {
   interval = setInterval(function() {
     timeNow = new Date();
     timeDifference = Math.round((timeFuture - timeNow) / 1000) + 1;
-
+// this is for the sets left and sets done
     timerArea.innerHTML = timeDifference;
     setdone1Area.innerHTML = Math.floor(((index + 1) / 2));
 	setneed1Area.innerHTML = (arrPeriods.length) / 2;
