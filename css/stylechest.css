@@ -12,6 +12,7 @@ html {
 .body1_h1 {
   text-align: center;
   color: white;
+  font-size: 40px;
 }
 .home a {
   text-decoration: none;
@@ -34,6 +35,7 @@ html {
   width: 85%;
   padding: 10% 1%;
   border: black 5px;
+  font-size: 35px;
   background-image: url("main.jpg");
   background-size: cover;
 }

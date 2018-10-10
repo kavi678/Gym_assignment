@@ -13,6 +13,7 @@ html {
 .body1_h1 {
   text-align: center;
   color: white;
+  font-size: 45px;
 }
 .home a {
   text-decoration: none;
@@ -25,6 +26,7 @@ html {
   margin-top: 10px;
   width: 85%;
   padding: 10% 1%;
+  font-size: 35px;
   border: black 5px;
   background-image: url("main.jpg");
   background-size: cover;
