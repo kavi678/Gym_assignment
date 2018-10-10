@@ -81,17 +81,18 @@ function mycal() {
 }
 //claculatemanBMR function will calculate the BMR with some mathematics techniques
 (function () {
-	function calculatemanBMR(manWeight, manHeight, manAge) {
+	function calculatemanBMR(manWeight, manHeight, manAge, manWork) {
 		manWeight = parseFloat(manWeight);
 		manHeight = parseFloat(manHeight);
 		manAge = parseFloat(manAge);
-		return ((manWeight * 10) + (manHeight * 6.25) - (manAge *5) + 5);
+    manWork = parseFloat(manWork);
+		return ((manWeight * 10) + (manHeight * 6.25) - (manAge *5) + (5) + (manWork * 210));
 	}
 
 	var manBMR = document.getElementById("manBMR");
 	if (manBMR) {
 		manBMR.onsubmit = function () {
-			this.result.value = calculatemanBMR(this.manWeight.value, this.manHeight.value, this.manAge.value);
+			this.result.value = calculatemanBMR(this.manWeight.value, this.manHeight.value, this.manAge.value, this.manWork.value);
 			return false;
 		};
 	}
@@ -101,17 +102,18 @@ function mycal() {
 
 //claculatewomanBMR function will calculate the BMR with some mathematics techniques
 (function () {
-	function calculatewomanBMR(womanWeight, womanHeight, womanAge) {
+	function calculatewomanBMR(womanWeight, womanHeight, womanAge, womanWork) {
 		womanWeight = parseFloat(womanWeight);
 		womanHeight = parseFloat(womanHeight);
 		womanAge = parseFloat(womanAge);
-		return ((womanWeight * 10) + (womanHeight * 6.25) - (womanAge *5) - 161);
+    womanWork = parseFloat(womanWork);
+		return ((womanWeight * 10) + (womanHeight * 6.25) - (womanAge *5) - (161) + (womanWork * 165));
 	}
 
 	var womanBMR = document.getElementById("womanBMR");
 	if (womanBMR) {
 		womanBMR.onsubmit = function () {
-			this.result.value = calculatewomanBMR(this.womanWeight.value, this.womanHeight.value, this.womanAge.value);
+			this.result.value = calculatewomanBMR(this.womanWeight.value, this.womanHeight.value, this.womanAge.value, this.womanWork.value);
 			return false;
 		};
 	}
