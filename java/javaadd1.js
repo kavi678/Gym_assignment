@@ -53,3 +53,6 @@ function del1() {
     localStorage.removeItem("Add1");
 
 }
+function goBack() {
+    window.history.back();
+}

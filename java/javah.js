@@ -134,3 +134,6 @@ function mycal() {
 		};
 	}
 }());
+function goBack() {
+    window.history.back();
+}

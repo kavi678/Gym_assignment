@@ -54,3 +54,6 @@ function del2() {
     localStorage.removeItem("Add2");
 
 }
+function goBack() {
+    window.history.back();
+}

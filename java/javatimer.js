@@ -123,3 +123,6 @@ function runTimer(arrPeriods, index) {
     }
   }, 1000);
 }
+function goBack() {
+    window.history.back();
+}

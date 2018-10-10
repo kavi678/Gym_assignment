@@ -135,3 +135,6 @@ function mylower4() {
         x.style.display = "none";
     }
 }
+function goBack() {
+    window.history.back();
+}
