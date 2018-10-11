@@ -1,15 +1,16 @@
 var Day1Array = [];
 // following init fuction will always run when the windw is open. it will take all the items from the local storage and give value to post on a page
 function init() {
-    if (localStorage.Add1) {
-        Day1Array = JSON.parse(localStorage.Add1);
-        for (var i = 0; i < Day1Array.length; i++) {
-            prepareTableCell(Day1Array[i].exer1, Day1Array[i].mus1, Day1Array[i].se, Day1Array[i].re, Day1Array[i].we1 )
+  if (localStorage.Add1) {
+      Day1Array = JSON.parse(localStorage.Add1);
+      for (var i = 0; i < Day1Array.length; i++) {
+          prepareTableCell(Day1Array[i].exer1, Day1Array[i].mus1, Day1Array[i].se, Day1Array[i].re, Day1Array[i].we1 )
 
 
 
-        }
-    }
+      }
+  }
+
 }
 // add function will take the item from the text input and stores that values in a specific key named as Day1Array.
 

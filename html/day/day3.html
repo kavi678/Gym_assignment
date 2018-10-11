@@ -4,14 +4,45 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../../css/styleday1.css">
-  <title>Day</title>
+  <title>Day3</title>
 </head>
-<body class="body1">
-  <h1 class="body1_h1">Loading.......</h1>
+<body class="body1" onload="init()">
+  <h1 class="body1_h1">Add Day 3 Excercises</h1>
   <button onclick="goBack()"><img src="../../images/bk.jpg" alt="backbutton"></button>
   <a href="../../index.html" class="home" ><button><img src="../../images/hbutton.jpg" alt="hbutton"></button></a>
+  <ul class="form-style-1">
+    <li><label for="excersise3" class="day1css">Exercise <span class="required">*</span></label>
+    <input type="text" name="Exercise" class="field-long" id="excersise3" /></li>
 
+    <li>
+        <label for="muscle3" class="day1css">Muscles <span class="required">*</span></label>
+        <select name="Muscles" class="field-select" id="muscle3">
+        <option value="biceps">Biceps</option>
+        <option value="triceps">Triceps</option>
+        <option value="chest">Chests</option>
+        <option value="legs">Legs</option>
+        <option value="back">Backs</option>
+        <option value="lats">Lats</option>
+        </select>
+    </li>
+    <li>
+        <label for="set3" class="day1css">Sets <span class="required">*</span></label>
+        <input type="number" name="Sets" class="field-divided" id="set3" step="1">
+    </li>
+    <li>
+        <label for="rep3" class="day1css">Reps <span class="required">*</span></label>
+        <input type="number" name="Reps" class="field-divided" id="rep3" step="1">
+    </li>
+    <li>
+        <label for="weight3" class="day1css">Weights(kg) <span class="required">*</span></label>
+        <input type="number" name="Weights(kg)" class="field-divided" id="weight3" step="5">
+    </li>
+    <li>
+
+        <a href="day3.html"><button class="ad1" id="add_data3" onclick="add3()">Add Data</button></a>
+    </li>
+</ul>
 </body>
-<script  src="../../java/javaadd2.js"></script>
+<script  src="../../java/javaadd3.js"></script>
 
 </html>
