@@ -30,15 +30,12 @@ function add4() {
 // following function will make a table and show all the value from the local storage in the rows.
 function prepareTableCell(ex4, mu4, s4, r4, w4) {
     var table = document.getElementById("output4");
-    var De1 = document.createElement('button');
-    De1.innerHTML = 'Done';
     var row = table.insertRow();
     var ex4Cell = row.insertCell(0);
     var mu4Cell = row.insertCell(1);
     var s4Cell = row.insertCell(2);
     var r4Cell = row.insertCell(3);
     var w4Cell = row.insertCell(4);
-    var d4Cell = row.insertCell(5);
     ex4Cell.innerHTML = ex4;
     mu4Cell.innerHTML = mu4;
     //firstNameCell.colSpan = 2;

@@ -30,22 +30,18 @@ function add1() {
 // following function will make a table and show all the value from the local storage in the rows.
 function prepareTableCell(ex1, mu1, s1, r1, w1) {
     var table = document.getElementById("output1");
-    var De1 = document.createElement('button');
-    De1.innerHTML = 'Done';
     var row = table.insertRow();
     var ex1Cell = row.insertCell(0);
     var mu1Cell = row.insertCell(1);
     var s1Cell = row.insertCell(2);
     var r1Cell = row.insertCell(3);
     var w1Cell = row.insertCell(4);
-    var d1Cell = row.insertCell(5);
     ex1Cell.innerHTML = ex1;
     mu1Cell.innerHTML = mu1;
     //firstNameCell.colSpan = 2;
     s1Cell.innerHTML = s1;
     r1Cell.innerHTML = r1;
     w1Cell.innerHTML = w1;
-    d1Cell.appendChild(De1);
 
 }
 // dell function will delete that key from the local storage. Day1Array will be removes from it. when you add again any item it will create a new Day1Array list.
